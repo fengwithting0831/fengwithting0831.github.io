@@ -1,0 +1,22 @@
+.app {
+  display: flex;
+  min-height: 100vh;
+}
+
+.main-content {
+  flex: 1;
+  padding: 20px;
+  margin-left: 250px;
+  background: rgba(255, 255, 255, 0.1);
+  backdrop-filter: blur(10px);
+  border-radius: 20px 0 0 20px;
+  margin: 10px 10px 10px 0;
+}
+
+@media (max-width: 768px) {
+  .main-content {
+    margin-left: 0;
+    margin: 10px;
+    border-radius: 20px;
+  }
+}
